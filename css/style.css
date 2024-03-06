@@ -5,3 +5,47 @@
     border: 0;
     box-sizing: border-box;
 }
+body{
+    width: 100%;
+    height: 100vh;
+
+    background: var(--color-primario);
+
+    display: grid;
+    grid-template-rows: 5% auto 10% ;
+}
+main{
+    width: 100%;
+    height: 100%;
+
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+}
+footer{
+    width: 100%;
+    height: 100%;
+    
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+header{
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+    
+    color: var(--color-ternario);
+    
+    display: grid;
+    grid-template-columns: 15% auto 15%;
+}
+header img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
