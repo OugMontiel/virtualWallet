@@ -96,5 +96,22 @@ main{
     width: 70%; /* Ancho del contenido principal */
     background-color: gray; /* Color de fondo del contenido principal */
 }
-  
+
+.fichas, .tras{
+    background: var(--color-ternario);
+    
+    padding-left: 1em;
+    padding-right: 1em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.fichas{
+    border-top-left-radius: 6vh;
+    border-top-right-radius: 6vh;
+}
+
+
+
 
