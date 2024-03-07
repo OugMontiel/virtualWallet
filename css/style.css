@@ -46,7 +46,6 @@ footer{
     
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-
     
     padding-left: 1em;
     padding-right: 1em;
@@ -78,6 +77,8 @@ main{
 
     padding-left: 1em;
     padding-right: 1em;
+
+    font-family: "SF-Pro-Text-Heavy";
 }
 /* Arregla la h2 para que quede en el mismo estilo de p pero con 2 rem si pongo ese rublo en p cambio internamente el balance  */
 .Balance{
@@ -160,6 +161,13 @@ main{
     flex-direction: column;
     justify-content: center;
 }
-
+.banner{
+    position: absolute;
+} 
+.banner img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
 
 
