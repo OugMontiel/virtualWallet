@@ -10,15 +10,15 @@ body{
     width: 100%;
     height: 100vh;
 
-    /* background: var(--color-primario); */
 
     display: grid;
-    grid-template-rows: 6% auto 10% ;
+    grid-template-rows: 6% auto auto ;
 }
 header{
     padding-left: 1em;
     padding-right: 1em;
     
+    background:var(--color-ternario);
     color: var(--color-primario);
     
     display: grid;
@@ -63,6 +63,8 @@ footer ul li{
     list-style: none;
 }
 footer ul li img{
+    height: 4em;
+
     object-fit: contain;
     overflow: hidden;
 }
@@ -71,6 +73,8 @@ main{
     width: 100%;
     height: 100%;
     
+    background: var(--color-ternario);
+
     display: grid;
     grid-template-rows: repeat(5, 1fr);
     grid-template-areas: 
