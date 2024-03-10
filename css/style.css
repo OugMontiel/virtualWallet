@@ -62,7 +62,7 @@ footer ul li{
     list-style: none;
 }
 footer ul li img{
-    height: 4em;
+    height: 3em;
 
     object-fit: contain;
     overflow: hidden;
