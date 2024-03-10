@@ -9,20 +9,21 @@
 body{
     width: 100%;
     height: 100vh;
-
-    
-    display: grid;
-    grid-template-rows: 6% auto auto ;
 }
 header{
     padding-left: 1em;
     padding-right: 1em;
+    padding-top: .5em;
+    padding-bottom: .5em;
     
     background: var(--color-primario);
     color: var(--color-ternario);
     
     display: grid;
     grid-template-columns: 15% auto 15%;
+
+    position: sticky;
+    top: 0;
 }
 header div{
     display: flex;
