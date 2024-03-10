@@ -176,6 +176,7 @@ main{
 .move{
     display: grid;
     grid-template-columns: 10% auto 20%;
+    grid-gap: 1em;
 }
 .move img{
     width: 100%;
@@ -192,6 +193,13 @@ main{
     flex-direction: column;
     justify-content: center;
 }
+.move p{
+    font-weight: bold;
+}
+.move_small small, .move_small p{
+    margin-left: auto; /* Alinea las etiquetas <small> a la derecha */
+}
+
 .banner{
     position: absolute;
 } 
