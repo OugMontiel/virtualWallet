@@ -74,7 +74,7 @@ main{
 
     background: var(--color-primario);    
 }
-
+/* Primera parte del main */
 .tex{
     height: 30%;
 
@@ -118,43 +118,25 @@ main{
     width: 70%; /* Ancho del contenido principal */
     background-color: gray; /* Color de fondo del contenido principal */
 }
+/* Segunda parte del Main  */
 .blanc{
-    height: 100vh;
+    height: 90vh;
     border-top-left-radius: 4vh;
     border-top-right-radius: 4vh;
     padding-left: 1em;
     padding-right: 1em;
-
+    
     background: var(--color-ternario);
     
     display: flex;
     flex-direction: column;
-}
 
-.targeta{
-
-    padding: 1em;
-    height: 90%;
-    
-    display: flex;
-    justify-content: center;
-    /* align-items: ; */
-    gap: 1em;
     overflow: auto;
 }
-.tagetica{
+.fichas{
+    padding-top: 1em;
+    padding-bottom: 1em;
 
-    background: var(--color-ternario);
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius: 3vh;
-    
-    width: 100%;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2px;
 }
 .fichas h2{
     font-family: "SF-Pro-Text-Bold";
@@ -162,9 +144,40 @@ main{
 .fichas p{
     font-family: "SF-Pro-Text-Semibold";
 }
+.targeta{
+    padding-top: 1em;
+    padding: 1em;
+    height: 15em;
+    
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+.tagetica{
+    
+    background: var(--color-ternario);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 3vh;
+    
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
 
+.tras{
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+}
 .trans{
-    max-height: 20vh;
+    padding-top: 2em;
+    padding-bottom: 1em;
+
+    flex-grow: 1;
     overflow: auto;
 }
 .move{
