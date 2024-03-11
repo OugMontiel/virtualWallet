@@ -148,3 +148,43 @@ section{
     text-decoration: none;
     color: inherit;
 }
+.grafi img{
+    object-fit: contain;
+    overflow: hidden;
+}
+.targeta{
+    display: grid;
+    grid-template-rows: auto auto;
+
+    background: var(--color-secundario2);
+}
+.targeta_1{
+    display: flex;
+    justify-content: end;
+}
+.targeta_2{
+    display: flex;
+    align-items: start;
+}
+.targeta_1 img{
+    width: 3em;
+
+    object-fit: contain;
+    overflow: hidden;
+}
+.targeta_2 img{
+    height: 10em;
+
+    object-fit: contain;
+    overflow: hidden;
+}
+.targeta_tex{
+    padding: 1em;
+}
+.targeta h1{
+    padding-bottom: 1em;
+}
+.targeta p{
+    font-size: 1rem;
+    color: var(--color-cuarto);
+}
