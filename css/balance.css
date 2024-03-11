@@ -90,8 +90,10 @@ main{
     position: relative;
 }
 section{
+    width: 100vw;
     padding: 1em;
-
+    display: flex;
+    justify-content: center;
 }
 .circulito{
     background: var(--color-secundario);
@@ -109,4 +111,40 @@ section{
 .circulito h1{
     font-size: 2rem;
     padding: .4rem;
+}
+
+.navegation{
+    width: 100%;
+
+    list-style: none;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+.navegation li{
+    height: 2em;
+    width: 5em;
+    border-radius: 2em;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid transparent
+}
+.navegation li:nth-child(1){
+    background: var(--color-primario);
+    border-color: var(--color-primario);
+    color: var(--color-ternario);
+}
+.navegation li:nth-child(2){
+    border-color:var(--color-secundario);
+    color: var(--color-secundario);
+}
+.navegation li:nth-child(3){
+    border-color: var(--color-cuarto);
+    color: var(--color-cuarto);
+}
+.navegation a {
+    text-decoration: none;
+    color: inherit;
 }
