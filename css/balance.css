@@ -16,8 +16,8 @@ header{
     padding-top: .5em;
     padding-bottom: .5em;
     
-    background:var(--color-ternario);
-    color: var(--color-primario);
+    background:transparent;
+    color: var(--color-ternario);
     
     display: grid;
     grid-template-columns: 15% auto 15%;
@@ -69,3 +69,44 @@ footer ul li img{
     overflow: hidden;
 }
 
+.banner{
+    position: absolute;
+} 
+.banner img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    z-index: 10;
+    
+    position: relative;
+}
+section{
+    padding: 1em;
+
+}
+.circulito{
+    background: var(--color-secundario);
+    color: var(--color-ternario);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 100%;
+    height: 18em;
+    width: 18em;
+}
+.circulito h1{
+    font-size: 2rem;
+    padding: .4rem;
+}
