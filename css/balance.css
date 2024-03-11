@@ -85,8 +85,6 @@ main{
     justify-content: center;
     align-items: center;
     
-    z-index: 10;
-    
     position: relative;
 }
 section{
